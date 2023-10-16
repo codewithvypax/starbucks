@@ -149,3 +149,38 @@ header ul a{
     background: #017143;
     clip-path: circle(600px at right 800px);
 }
+
+@media (max-width:450px){
+    section{
+        width: 100vw;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .circle{
+        clip-path: circle(600px at right 1500px);
+    }
+
+    .thumb{
+        transform: translateX(-30%);
+    }
+
+    header{
+        padding: 10px 30px;
+    }
+
+    header img{
+        height: 50px;
+        width: 50px;
+    }
+
+    header ul li a{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+}
